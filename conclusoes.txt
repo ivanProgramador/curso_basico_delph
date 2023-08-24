@@ -1,0 +1,51 @@
+
+Quando eu salvo um projeto o Delph cria dois arquivos.
+
+1 - unit eu acho que deve ser uma unidade do projeto
+2 - project esse aruio deve correponder ao porjeto de forma geral 
+
+A pasta History guarda o historico de modificações, como se fose um copia de segurança do projeto.
+
+O executavel gerado quando a conetece a compilação fica dentro da pasta win32/Debug/
+alem do executavel vai ter um aquivo .dcu ele e a unidade que pertence ao projeto pode ser 
+uma unidade de formulario, ou uma unidade que faça outra função, no caso o delph ele guarda
+iso separadamente, e toda vez qua uma modificação é feita ele ataualiza a dcu ou cria uma dcu nova 
+se for criada uma nova unit.
+
+Arquivos.dpr 
+
+Esses arquivos contem o codigo escrito para criar o projeto.
+
+Arquivos.dproj 
+
+Esse arquivo contem informeções sobre o projeto escrtas no formato XML, que falam sobre 
+versao , plataforma no caso ele guradas informações adicionais.
+
+Arquivos.dfm 
+
+Esses aquivos guaradam informações sobre formulario do sistema, são informações como
+
+- fonte 
+- tamanho 
+- legenda 
+- tipos de caractere 
+
+Arquivos.pas 
+
+É o codigo da unit 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

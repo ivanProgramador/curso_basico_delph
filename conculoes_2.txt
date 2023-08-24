@@ -1,0 +1,4 @@
+para dar continuidade ao desenvovliemnto de um projeto pode abrir tanto o aruivo dproject 
+quanto a unit.
+
+para alterar entre codigo e design pressiona F12 

@@ -1,0 +1,35 @@
+unit Unit1;  // nome da unit que eu criei 
+
+interface // essa e a classe de interface 
+
+// aqui são todas as bihliotecas necessarias pra criar o formulario 
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  //isso ea classe TForm responsavel por modelar o formulario 
+
+  TForm1 = class(TForm)
+
+  // tudo oque for declarado dentro do private so pod ser acessado internamente 
+  //dentro do formulario 
+  //tudo oque form delacrado pulic pode ser acessado por units pelo lado de fora 
+  
+
+  private
+    { Private declarations }
+
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.
