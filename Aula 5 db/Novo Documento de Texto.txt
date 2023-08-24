@@ -1,0 +1,2 @@
+vai na system32 busca pela dll gds32.dll e renomeia para gds32_.dll 
+depois fecha e abre o ib expert e tenta crirar o banco denovo 
