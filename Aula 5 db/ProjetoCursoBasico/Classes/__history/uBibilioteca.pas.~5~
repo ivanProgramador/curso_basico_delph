@@ -1,0 +1,25 @@
+unit uBibilioteca;
+
+interface
+
+  uses IniFiles,System.SysUtils, vcl.Forms;
+
+  //essa é um função que recebe como paremetro as variaveis que vão definir
+  //o arquivos ini valores e sessões
+
+  procedure setValorIni(pLocal, pSessao,pSubsessao:string; pValor:string );
+
+implementation
+
+   procedure setValorIni(pLocal, pSessao,pSubsessao:string; pValor:string );
+   var vArquivo: TIniFile;
+
+   begin
+
+    vArquivo := TiniFile.Create(ExtractFilePath(Application.ExeName));
+
+   end;
+
+
+
+end

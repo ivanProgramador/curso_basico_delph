@@ -1,0 +1,11 @@
+unit uBibilioteca;
+
+interface
+  //essa é um funçãoque recebe como paremetro as variaveis que vão definir
+  //o aruivos ini valores e sessoes
+
+  procedure setValorIni(pLocal, pSessao,pSubsessao:string; pValor:string );
+
+implementation
+
+end.
